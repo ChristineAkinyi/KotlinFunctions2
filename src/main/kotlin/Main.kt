@@ -8,16 +8,8 @@ fun main() {
 fun printString(sentence:String){
    var sentence = "Barnie bakes brown bagels and buns"
     println(listOf(sentence))
-
     }
-//    var findChar =
 
-//
-//    sentence.forEach { x in sentence
-//    }
-//    var newSentence = sentence.split(",")
-
-}
 
 fun doMath(numbers:Array<Int>):Int{
     var numbers = arrayOf(1,2,3,4,5,6,)
@@ -27,13 +19,13 @@ fun doMath(numbers:Array<Int>):Int{
     var d = numbers[3]
     var e = numbers[4]
     var f = numbers[5]
-    var sum = a+b+c+d+e+f
-    return sum
+    var add = a+b+c+d+e+f
+    return add
 
-    var numbersLength = numbers.count()
+    var numbersLength= numbers.count()
     return numbersLength
 
-    var avgNumbers = sum/numbersLength
+    var avgNumbers = add/numbersLength
     return avgNumbers
 
 }
@@ -44,7 +36,6 @@ fun calculateVolume(radius:Int){
 }
 
 fun isPalindrome(word:String):Boolean{
-    var word="racecar"
     var newWord = word.reversed()
     if (word == newWord){
         return true
